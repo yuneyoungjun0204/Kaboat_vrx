@@ -1,0 +1,43 @@
+# ROS2/Colcon/Ubuntu/VSCode 기본 .gitignore
+# 빌드/설치/로그 디렉토리
+build/
+install/
+log/
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# CMake/Make 관련
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+CTestCustom.cmake
+CTestConfiguration.ini
+
+# ROS2/Colcon
+*.colcon*
+COLCON_IGNORE
+
+# VSCode 설정
+.vscode/
+
+# 기타
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# ROS2 패키지 인덱스
+ament_cmake_index/
+ament_cmake_core/
+ament_cmake_environment_hooks/
+ament_cmake_package_templates/
+ament_cmake_python/
+ament_cmake_uninstall_target/
